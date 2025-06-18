@@ -8,6 +8,5 @@ import retrofit2.http.POST
 interface ActiveRegistrationsApi {
     @POST("api/NumberOfActiveRegistrations/list")
     suspend fun getActiveRegistrations(
-        @Body request: ActiveRegistrationsRequest
-    ): List<RegistrationPlace>
+        @Body request: ActiveRegistrationsRequest):List<RegistrationPlace>
 }

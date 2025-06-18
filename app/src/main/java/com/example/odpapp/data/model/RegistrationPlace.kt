@@ -4,3 +4,5 @@ data class RegistrationPlace(
     val registrationPlace: String,
     val total: Int
 )
+
+

@@ -9,5 +9,6 @@ class ActiveRegistrationsRepository(
 ) {
     suspend fun getActiveRegistrations(request: ActiveRegistrationsRequest): List<RegistrationPlace> {
         return api.getActiveRegistrations(request)
+
     }
 }

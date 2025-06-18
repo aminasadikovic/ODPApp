@@ -68,6 +68,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation("androidx.compose.material3:material3:1.2.0-alpha03")
     implementation("com.patrykandpatrick.vico:compose-m3:1.13.0")
     implementation ("androidx.compose.material3:material3:1.1.0")
